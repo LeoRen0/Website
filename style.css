@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+}
+
+.contenedor {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.datos {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Marquesina */
+.marquesina {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0,0,0,0.3);
+    white-space: nowrap;
+}
+
+.texto-marquesina {
+    display: inline-block;
+    padding-left: 100%;
+    animation: mover 10s linear infinite;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
