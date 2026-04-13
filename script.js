@@ -1,7 +1,7 @@
 const datos = {
-    alumno: "Juan Pérez",
-    docente: "María López",
-    campus: "Ciudad de México",
+    alumno: "Leonardo Khotan Rentería García",
+    docente: "Felix Jonathan Gaspariano Reyes",
+    campus: "Texcoco",
     practica: "Desarrollo Web"
 };
 
